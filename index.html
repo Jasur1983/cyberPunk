@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="shortcut icon" href="./favicon.ico">
 </head>
 
@@ -35,7 +35,7 @@
   </header>
 
 
-  <main>
+
     <div class="container">
       <section class="about">
         <h3 class="about_title"> Найт-Сити</h3>
@@ -52,26 +52,57 @@
       <picture>
         <source media="(min-width: 400px)" srcset="./images/about-mobile.png">
         <source media="(min-width: 320px)" srcset="./images/about-mobile.png">
-        <img src="./images/about-mobile.png" alt=".pictures"> 
-        
-         </picture>
+        <img src="./images/about-mobile.png" alt=".pictures">
+
+      </picture>
 
       <picture>
         <source media="(min-width: 568px)" srcset="./images/About-Tablet.png">
         <source media="(min-width:320px)" srcset="./images/About-Tablet.png">
         <img src="./images/About-Tablet.png" alt=".pictures">
 
-        </picture>
+      </picture>
 
-         <picture>
+      <picture>
         <source media="(min-width: 750px)" srcset="./images/about-Desctop2.png">
         <source media="(min-width: 320px)" srcset="./images/about-Desctop2.png">
         <img src="./images/about-Desctop2.png" alt=".picturtes">
 
-        </picture> 
-      
+      </picture>
+      </section>
+
     </div>
 
+
+    <section class="form">
+      <div class="container">
+        <div class="form-images">
+          <div class="formimages-one"></div>
+          <div class="formimages-two"></div>
+
+        </div>
+
+        <div class="form-description">
+          <h3 class="form_title"> Играй и выигрывай</h3>
+          <p class="form_desc"> Играй в <span class="blue">Cyberpunk 2077 </span> и получи возможность выиграть консоль
+            <span class="blue">Xbox Series X </span> или <span class="blue">Sony PlayStation </span>5! Заполни форму
+            ниже и приложи скриншот о
+            покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи!</p>
+        </div>
+        <form class="from-fields">
+          <label for="text"></label>
+          <input class="input" name="text" id="text" type="text" placeholder="Как тебя зовут?" required>
+          <label for="e-mail"></label>
+          <input class="input" name="e-mail" id="email" type="email" placeholder="Твой e-mail" required>
+          <label class="download" for="download" type="file">Прикрепить скриншот</label>
+          <input class="input-download" type="file">
+            <button class="form_btn"> отправить </button>
+            <input class="input-checkbox" id="checkbox" type="checkbox"> 
+            <label class="checkbox" for="checkbox"> Согласен на обработку персональных данных</label>
+            
+        </form>
+      </section>
+    </div>
   </main>
 
 
