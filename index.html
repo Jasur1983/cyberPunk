@@ -1,112 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>cyberPunk</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel=" shortcut icon" href="./favicon.ico">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="./index.html" class="nav__logo">
+                        <img class="nav__img" src="./images/logo.svg"
+                            alt=".logotype">
+                    </a>
+                    <div class="nav__icons">
+                        <a class="nav__icon" href="#"><img
+                                src="./images/youTube.svg" alt=".youtube"></a>
+                        <a class="nav__icon" href="#"><img src="./images/vk.svg"
+                                alt=".vk"></a>
+                        <a class="nav__icon" href="#"><img
+                                src="./images/facebook.svg" alt=".facebook"></a>
+                        <a class="nav__icon" href="#"><img src="./images/x.svg"
+                                alt=".x"></a>
+                        <a class="nav__icon" href="#"><img
+                                src="./images/twitch.svg" alt=".twitch"></a>
+                        <a class="nav__icon" href="#"><img
+                                src="./images/instagramm.svg"
+                                alt=".instagramm"></a>
+                    </div>
+                </nav>
+            </div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="shortcut icon" href="./favicon.ico">
-</head>
+            <div class="square">
+                <h1 class="square__title">Доступно на всех платформах</h1>
+                <button class="square__btn">Узнать больше</button>
+            </div>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <nav class="nav">
-        <a href="./index.html" class="nav__logo">
-          <img class="nav__img" src="./images/logo.svg" alt=".logotype">
-        </a>
-        <div class="nav__icons">
-          <a class="nav__icon" href="#"><img src="./images/youTube.svg" alt=".youtube"></a>
-          <a class="nav__icon" href="#"><img src="./images/vk.svg" alt=".vk"></a>
-          <a class="nav__icon" href="#"><img src="./images/facebook.svg" alt=".facebook"></a>
-          <a class="nav__icon" href="#"><img src="./images/x.svg" alt=".x"></a>
-          <a class="nav__icon" href="#"><img src="./images/twitch.svg" alt=".twitch"></a>
-          <a class="nav__icon" href="#"><img src="./images/instagram.svg" alt=".instagramm"></a>
-        </div>
-      </nav>
-    </div>
+        </header>
+        <main>
+            <div class="container">
+                <section class="about">
+                    <h3 class="about__title">Найт-Сити изменит тебя
+                        навсегда!</h3>
+                    <p class="about__desc"><span class="blue">Cyberpunk
+                            2077</span>
+                        — приключенческая
+                        ролевая игра, действие которой происходит в мегаполисе
+                        Найт-Сити, где власть, роскошь и модификации тела
+                        ценятся выше всего. Ты играешь за V, наёмника в поисках
+                        устройства, позволяющего обрести бессмертие. Ты сможешь
+                        менять киберимпланты, навыки и стиль игры своего
+                        персонажа, исследуя открытый мир, где твои поступки
+                        влияют на ход сюжета и всё, что тебя окружает.
+                    </p>
+                </section>
+            </div>
+            <div class="images">
 
-    <div class="square">
-      <h1 class="square__title">Доступно на всех платформах</h1>
-      <button class="square__btn">Узнать больше</button>
-    </div>
+                <picture class="img1">
 
-  </header>
+                    <source media="(min-width: 500px)"
+                        srcset="./images/about-tablet-1.png">
 
+                    <source media="(min-width: 320px)"
+                        srcset="./images/about-mobile-1.png">
 
+                    <img src="./images/about-mobile-1.png" alt=".pictures">
 
-    <div class="container">
-      <section class="about">
-        <h3 class="about_title"> Найт-Сити</h3>
-        <p class="about_desc"> <span class="blue"> Cyberprunk 2077</span>
-          Cyberpunk 2077 — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть,
-          роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего
-          обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый
-          мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.
-        </p>
-      </section>
-    </div>
-    <div class="images">
+                </picture>
 
-      <picture>
-        <source media="(min-width: 400px)" srcset="./images/about-mobile.png">
-        <source media="(min-width: 320px)" srcset="./images/about-mobile.png">
-        <img src="./images/about-mobile.png" alt=".pictures">
+                <picture class="img2">
+                    <source media="(min-width: 500px)"
+                        srcset="./images/about-tablet-2.png">
+                    <source media="(min-width: 320px)"
+                        srcset="./images/about-mobile-2.png">
+                    <img src="./images/about-mobile-2.png" alt=".pictures">
+                </picture>
 
-      </picture>
+                <picture class="img3">
+                    <source media="(min-width: 768px)"
+                        srcset="./images/about-desctop-3.png">
+                    <source media="(min-width: 500px)"
+                        srcset="./images/about-tablet-3.png">
+                    <source media="(min-width: 320px)"
+                        srcset="./images/about-mobile-3.png">
+                    <img src="./images/about-mobile-3.png" alt=".pictures">
+                </picture>
 
-      <picture>
-        <source media="(min-width: 568px)" srcset="./images/About-Tablet.png">
-        <source media="(min-width:320px)" srcset="./images/About-Tablet.png">
-        <img src="./images/About-Tablet.png" alt=".pictures">
+            </div>
 
-      </picture>
+            <section class="form">
 
-      <picture>
-        <source media="(min-width: 750px)" srcset="./images/about-Desctop2.png">
-        <source media="(min-width: 320px)" srcset="./images/about-Desctop2.png">
-        <img src="./images/about-Desctop2.png" alt=".picturtes">
+                <div class="container">
+                    <div class="wrapper">
 
-      </picture>
-      </section>
+                        <div class="element"></div>
 
-    </div>
+                        <div class="form-images">
+                            <div class="form-images-one"></div>
+                            <div class="form-images-two"></div>
+                        </div>
+                        <div class="form-description">
+                            <h3 class="form__title">Играй и выигрывай!</h3>
+                            <p class="form__desc">Играй в <span
+                                    class="blue">Cyberpunk 2077</span> и получи
+                                возможность выиграть консоль <span
+                                    class="blue">Xbox
+                                    Series X</span> или <span class="blue">Sony
+                                    PlayStation 5!</span> Заполни форму ниже и
+                                приложи скриншот
+                                о покупке игры. Итоги розыгрыша будут подведены
+                                1
+                                февраля. Удачи! ;)
+                            </p>
+                            <form class="form-fields">
+                                <label for="text"></label>
+                                <input class="input" name="text" id="text"
+                                    type="text"
+                                    placeholder="Как тебя зовут?" required>
 
+                                <label for="email"></label>
+                                <input class="input" name="email" id="email"
+                                    type="email"
+                                    placeholder="Твой е-mail" required>
 
-    <section class="form">
-      <div class="container">
-        <div class="form-images">
-          <div class="formimages-one"></div>
-          <div class="formimages-two"></div>
+                                <label class="download"
+                                    for="download">прикрепить
+                                    скриншот</label>
+                                <input class="input-download" id="download"
+                                    type="file">
 
-        </div>
+                                <button class="form__btn">Отправить</button>
 
-        <div class="form-description">
-          <h3 class="form_title"> Играй и выигрывай</h3>
-          <p class="form_desc"> Играй в <span class="blue">Cyberpunk 2077 </span> и получи возможность выиграть консоль
-            <span class="blue">Xbox Series X </span> или <span class="blue">Sony PlayStation </span>5! Заполни форму
-            ниже и приложи скриншот о
-            покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи!</p>
-        </div>
-        <form class="from-fields">
-          <label for="text"></label>
-          <input class="input" name="text" id="text" type="text" placeholder="Как тебя зовут?" required>
-          <label for="e-mail"></label>
-          <input class="input" name="e-mail" id="email" type="email" placeholder="Твой e-mail" required>
-          <label class="download" for="download" type="file">Прикрепить скриншот</label>
-          <input class="input-download" type="file">
-            <button class="form_btn"> отправить </button>
-            <input class="input-checkbox" id="checkbox" type="checkbox"> 
-            <label class="checkbox" for="checkbox"> Согласен на обработку персональных данных</label>
-            
-        </form>
-      </section>
-    </div>
-  </main>
+                                <input class="input-checkbox" id="checkbox"
+                                    type="checkbox">
 
+                                <label class="checkbox" for="checkbox">
+                                    Согласен на обработку персональных данных
+                                </label>
 
-
-</body>
-
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
 </html>
